@@ -1,0 +1,50 @@
+.main {
+    width: 100%;
+    overflow: hidden; /* contain floated elements */
+}
+
+#slideshow {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#slideshow li {
+    display: none;
+    width: 861px;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 23px;
+    text-shadow: 0 0 3px white;
+    color: white;
+    text-align: justify;
+}
+
+#slideshow li.current-slide {
+    display: block;
+}
+
+body {
+    background-image: url('../images/bg.jpg');
+}
+
+#prevButton {
+    float: left;
+    width: 15%;
+    text-align: right;
+    opacity: 0.1;
+    margin-top: 2cm;
+    cursor: pointer;
+}
+
+.center {
+    float: left;
+    width: 70%;
+}
+
+#nextButton {
+    float: left;
+    width: 15%;
+    opacity: 0.1;
+    text-align: left;
+    margin-top: 2cm;
+    cursor: pointer;
+}

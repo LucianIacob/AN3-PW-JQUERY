@@ -1,0 +1,28 @@
+html,body {
+    font-family : "Roboto Light";
+    font-size: medium;
+}
+
+input {
+    padding : 5px;
+    width : 200px;
+    border-radius : 3px;
+    border : 1px solid;
+    cursor: pointer;
+    font-family: "Roboto Light";
+    font-size: medium;
+}
+
+ul {
+    width : 210px;
+    border-radius : 3px;
+    margin : 0;
+    padding : 0;
+    display : none;
+    border : 1px solid #ccc;
+}
+
+li {
+    padding : 3px 10px;
+    cursor : pointer;
+}
